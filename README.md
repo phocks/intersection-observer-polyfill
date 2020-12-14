@@ -87,7 +87,7 @@ Optionally you can take a version that always exports itself globally.
 With ES6 modules:
 
 ```javascript
-import 'intersecton-observer-polyfill/index.global';
+import 'intersection-observer-polyfill/index.global';
 
 const observer = new IntersectionObserver(() => {});
 ```
@@ -95,7 +95,7 @@ const observer = new IntersectionObserver(() => {});
 With AMD/CommonJS:
 
 ```javascript
-require('intersecton-observer-polyfill/dist/IntersectionObserver.global');
+require('intersection-observer-polyfill/dist/IntersectionObserver.global');
 ```
 
 ## Configuration
